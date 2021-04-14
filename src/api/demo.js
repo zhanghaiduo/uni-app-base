@@ -10,4 +10,4 @@ export function selectPageParamConfig(data) {
     method: 'post',
     data
   })
-}
+} 
