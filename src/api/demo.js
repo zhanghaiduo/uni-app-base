@@ -6,7 +6,7 @@ import request from './request'
   */
 export function selectPageParamConfig(data) {
   return request({
-    url: '/auth/stores/getStoreMenuCached',
+    url: '/stores/getStoreMenuCached',
     method: 'post',
     data
   })
