@@ -6,7 +6,7 @@ import request from './request'
   */
 export function selectPageParamConfig(data) {
   return request({
-    url: 'http://dev-auth-server.wangjiahuan.net/auth/stores/getStoreMenuCached',
+    url: '/auth/stores/getStoreMenuCached',
     method: 'post',
     data
   })
